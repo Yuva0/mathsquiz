@@ -16,11 +16,11 @@ const ResultPage = (props) => {
         scoreCardDiv = <Fragment><img alt="Result" className={classes.trophyImage} src={star}/>
         <div className={classes.congrats}><h2>Perfect Score {props.name}!!</h2></div></Fragment>;
     }
-    else if(props.score > 8){
-        scoreCardDiv = <Fragment><img alt="Result" className={classes.resultImage} src={medal}/>
+    else if(props.score >= 7){
+        scoreCardDiv = <Fragment><img alt="Result" className={classes.medalImage} src={medal}/>
         <div className={classes.congrats}><h3>Congratulations {props.name}!</h3></div></Fragment>;
     }
-    else if(props.score >= 6){
+    else if(props.score >= 4){
         scoreCardDiv = <Fragment><img alt="Result" className={classes.thumbs} src={thumbs}/>
         <div className={classes.congrats}><h3>Well done {props.name}</h3></div></Fragment>;
     }
