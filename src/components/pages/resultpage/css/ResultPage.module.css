@@ -1,0 +1,50 @@
+.resultPageContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color:white;
+}
+
+.playAgain{
+    width:160px;
+    padding:12px 0;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 64px;
+    background-color: #ff595e;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+    color:white;
+    font-family: 'Source Sans Pro', 'sans-serif';
+}
+
+.playAgain:hover{
+    box-shadow: 8px 8px 4px rgba(0, 0, 0, 0.25);
+}
+
+.playAgain:active{
+    box-shadow: 0px 0px 0px;
+    transform: translate(4px,4px);
+}
+
+.trophyImage{
+    width: 300px;
+}
+
+.tripping{
+    width: 300px;
+}
+
+.thumbs{
+    width: 100px;
+    margin-bottom: 36px;
+}
+
+.congrats{
+    color:#e1ecf7;
+}
+
+.scored{
+    margin-top: 32px;
+}
