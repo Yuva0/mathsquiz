@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/mathsquiz/static/css/main.6fc02838.css",
-    "main.js": "/mathsquiz/static/js/main.c8850fca.js",
+    "main.css": "/mathsquiz/static/css/main.09f6ef7c.css",
+    "main.js": "/mathsquiz/static/js/main.53dba8d2.js",
     "static/media/project.png": "/mathsquiz/static/media/project.eeeef42ed651e930da5e.png",
     "static/media/star.png": "/mathsquiz/static/media/star.5f33caf3ea278636d0a3.png",
     "static/media/medal.png": "/mathsquiz/static/media/medal.68b82a14d78fceb386c5.png",
     "static/media/mistake.png": "/mathsquiz/static/media/mistake.79dade58b8fcceef961a.png",
     "index.html": "/mathsquiz/index.html",
-    "main.6fc02838.css.map": "/mathsquiz/static/css/main.6fc02838.css.map",
-    "main.c8850fca.js.map": "/mathsquiz/static/js/main.c8850fca.js.map"
+    "main.09f6ef7c.css.map": "/mathsquiz/static/css/main.09f6ef7c.css.map",
+    "main.53dba8d2.js.map": "/mathsquiz/static/js/main.53dba8d2.js.map"
   },
   "entrypoints": [
-    "static/css/main.6fc02838.css",
-    "static/js/main.c8850fca.js"
+    "static/css/main.09f6ef7c.css",
+    "static/js/main.53dba8d2.js"
   ]
 }
