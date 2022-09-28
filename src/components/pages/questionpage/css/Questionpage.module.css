@@ -41,6 +41,7 @@
     user-select: none;
     box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
     color:#006494;
+    font-size: 24px;
 }
 
 .answers div:hover{
@@ -88,5 +89,13 @@
 @media only screen and (max-width:700px) {
     .answers div{
         flex-basis: 100%;
+        font-size: 21px;
+    }
+}
+
+@media only screen and (max-width:400px) {
+    .answers div{
+        flex-basis: 100%;
+        font-size: 18px;
     }
 }

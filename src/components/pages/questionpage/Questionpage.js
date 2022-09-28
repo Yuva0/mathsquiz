@@ -40,7 +40,7 @@ const QuestionPage = (props) => {
     if(props.answersArray.length !== 0){
         answerListDiv = props.answersArray.map((answer, index) => {return <div
             className={classState[index] === 0 ? classes.defaultState : classState[index] === 1 ? classes.correctState : classes.wrongState}
-            key={index} onClick={checkAnswerHandler}><h3 dangerouslySetInnerHTML={{__html: answer}}></h3></div>})
+            key={index} onClick={checkAnswerHandler} dangerouslySetInnerHTML={{__html: answer}}></div>})
     }
     
 
