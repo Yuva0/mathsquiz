@@ -11,7 +11,7 @@ Visit the website: [https://yuva0.github.io/mathsquiz/](https://yuva0.github.io/
 
 ## API
 
-The quiz uses questions from the [Open Trivia Database API](https://opentdb.com/api.php) to provide a rich selection of math problems.
+The quiz uses questions from the [Open Trivia Database API](https://opentdb.com/) to provide a rich selection of math problems.
 
 ## How to Access
 
